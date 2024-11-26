@@ -1,7 +1,12 @@
 public class ApiTest {
 
-    int x = 10;
+     private int  x = 10;
 
+    public int getX() {
+        return x;
+    }
 
-
+    public void setX(int x) {
+        this.x = x;
+    }
 }
